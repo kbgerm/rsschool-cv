@@ -1,5 +1,4 @@
-<style>
-  .wholepage {
+.wholepage {
     background-color: #eddfde;
     margin: 20px, 100px, 20px;
     width: 1024px;
@@ -8,4 +7,4 @@
     line-height: 1.5;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
   }
-</style>
+  
