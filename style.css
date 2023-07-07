@@ -16,7 +16,7 @@
   border-radius: 50%;
   box-shadow: 0 0 7px #666;
   margin-top: 15%;
-  margin-left: 135px;
+  margin-left: 90px;
 }
 .heading {
   margin-left: 50px;
@@ -33,7 +33,7 @@ h2 {
 }
 .leftcolumn {
   background-color: #d64126;
-  width: 45%;
+  width: 40%;
   color:#eddfde;
 }
 .aboutme {
@@ -95,4 +95,7 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+#code {
+  border:rgba(0, 0, 0,);
 }
