@@ -1,8 +1,8 @@
 .wholepage {
     background-color: #eddfde;
-    margin-top: 3%;
+    margin-top: 0%;
     margin-right: 15%;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
     margin-left: 15%;
     width: 1024px;
     font-family: "Arial", sans-serif;
@@ -29,9 +29,70 @@
 }
 h2 {
   text-align: center;
+  border-bottom: 1px solid #eddfde;
 }
 .leftcolumn {
   background-color: #d64126;
   width: 45%;
   color:#eddfde;
+}
+.aboutme {
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#telegram {
+  color:#eddfde;
+}
+.lang {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.skills {
+  margin-top: 20%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.exp {
+  margin-top: 20%;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+.edu {
+  margin-top: 25%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.Strengths {
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+.header {
+  background-color: #eddfde;
+  margin-top: 0%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  width: 1024px;
+  height: fit-content;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+footer { 
+  display: block;
+  background-color: #eddfde;
+  margin-top: 0%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  width: 1024px;
+  height: fit-content;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
