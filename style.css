@@ -1,4 +1,4 @@
-.wholepage {
+main {
     background-color: #eddfde;
     margin-top: 0%;
     margin-right: 15%;
@@ -32,7 +32,7 @@ h2 {
   border-bottom: 1px solid #eddfde;
 }
 .leftcolumn {
-  background-color: #d64126;
+  background-color: #d5a1a3;
   width: 40%;
   color:#eddfde;
 }
@@ -49,17 +49,18 @@ h2 {
   margin-left: 5%;
 }
 .skills {
-  margin-top: 20%;
+  margin-top: 0%%;
   margin-right: 5%;
   margin-left: 5%;
 }
 .exp {
-  margin-top: 20%;
+  margin-top: 0%;
   margin-right: 5%;
+  margin-bottom: 0%;
   margin-left: 10%;
 }
 .edu {
-  margin-top: 25%;
+  margin-top: 0%;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -84,7 +85,7 @@ h2 {
 }
 footer { 
   display: block;
-  background-color: #eddfde;
+  background-color: #D5A1A3;
   margin-top: 0%;
   margin-right: 15%;
   margin-bottom: 0%;
@@ -94,8 +95,11 @@ footer {
   font-family: "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: right;
+  color:black;
 }
-#code {
-  border:rgba(0, 0, 0,);
-}
+pre {
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+  }
