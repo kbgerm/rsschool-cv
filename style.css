@@ -1,0 +1,105 @@
+main {
+    background-color: #eddfde;
+    margin-top: 0%;
+    margin-right: 15%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    width: 1024px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 0px 0px 40px -1px rgba(0, 0, 0, 0.23);
+  }
+.photo {
+  border-radius: 100px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  box-shadow: 0 0 7px #666;
+  margin-top: 15%;
+  margin-left: 90px;
+}
+.heading {
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+.uheading {
+  margin-top: 5px;
+  margin-left: 60px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #eddfde;
+}
+.leftcolumn {
+  background-color: #d5a1a3;
+  width: 40%;
+  color:#eddfde;
+}
+.aboutme {
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#telegram {
+  color:#eddfde;
+}
+.lang {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.skills {
+  margin-top: 0%%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.exp {
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+}
+.edu {
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.Strengths {
+  margin-top: 0%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+.header {
+  background-color: #eddfde;
+  margin-top: 0%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  width: 1024px;
+  height: fit-content;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+footer { 
+  display: block;
+  background-color: #D5A1A3;
+  margin-top: 0%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-left: 15%;
+  width: 1024px;
+  height: fit-content;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: right;
+  color:black;
+}
+pre {
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+  }
