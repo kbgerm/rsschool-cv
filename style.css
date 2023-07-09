@@ -103,3 +103,19 @@ pre {
     height: fit-content;
     background-color: #fff;
   }
+  table {
+    width:100%;
+    border-spacing: 0px;
+    padding: 5px;
+  }
+  td {
+    width: 170px;
+    vertical-align:top;
+  }
+  #midtd {
+    vertical-align:middle;
+  }
+  #tdexp {
+    width: 200px;
+    vertical-align:top;
+  }
