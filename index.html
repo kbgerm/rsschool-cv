@@ -9,95 +9,94 @@
 </head>
 
 <body>
-  <div class="centeredbox">
-    <header>
-      <nav class="menu">
-        <ul>
-          <li><a href="#nav3">Contacts</a></li>
-          <li><a href="#nav1">About myself</a></li>
-          <li><a href="#nav2">Skills</a></li>
-          <li><a href="#nav6">Code Example</a></li>
-          <li><a href="#nav4">Education</a></li>
-          <li><a href="#nav5">Experience</a></li>
-          <li><a href="#nav7">English level</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <img id=photo src="IMG_0645.jpeg" alt="Photo" width="204" height="204">
-      <div class="name">
-        Katsiaryna Barysevich
-      </div>
-      <div id="nav3">
-        <ul>
-          <li>
-            tel: +375 29 309 ** **
-          </li>
-          <li>
-            E-mail: k.b.germ1806@gmail.com
-          </li>
-          <li>
-            Discord: katherine_svin
-          </li>
-        </ul>
-      </div>
-      <div id="nav1">
-        <h1>About myself:</h1>
-        I am a microbiologist, but recently I have decided to change my profession and become a programmer. Microbiology
-        is an interesting and useful profession, but after working for two years in distribution, I realized that
-        science is not exactly what I want to do in life. Programming for me is not so much a desire to earn money and
-        be useful, but an opportunity to gain life experience and find a job that I like.
-        I consider communication skills and ability to work in a team as my strengths. Also, I really like to study and
-        to learn new things, meet new people and gain experience and I'm hoping to success.
-      </div>
-      <div id="nav2">
-        <h2>Skills:</h2>
-        <ul>
-          <li>Git</li>
-          <li>JS basics</li>
-          <li>HTML5/CSS3</li>
-          <li>VSCode</li>
-        </ul>
-      </div>
-      <div id="nav6">
-        <h2>Code Example:</h2>
-        <pre><code>
-  function otherAngle(a, b) {
-  let c = 180 - (a + b)
-  return c;
-}
-</code>
-</pre>
-      </div>
-      <div id="nav5">
-        <h2>Experience:</h2>
-        CV#2+CV#3
-      </div>
-      <div id="nav4">
-        <h2>Education:</h2>
-        <ul>
-          <li>finished 2 HTML/CSS courses</li>
-          <li>finished 1 JS course</li>
-        </ul>
-        <div id="nav7">
-          <h2>English level:</h2>
-          B2 (reading, writing, speaking)
-        </div>
-      </div>
-    </main>
-    <footer class="menu">
+  <header>
+    <img class="photo" src="IMG_0645.jpeg" alt="profilePhoto">
+    <div class="heading">
+      <h1>Katsiaryna Barysevich</h1>
+      <h4>Junior Front-End Developer</h4>
+    </div>
+    <nav>
       <ul>
-        <li><a href='https://rs.school/courses/javascript-ru'><img
-              src="https://media.licdn.com/dms/image/C4E22AQExc_r5L-K6aQ/feedshare-shrink_800/0/1670224092960?e=2147483647&v=beta&t=yXlKfHTUFVQU4fbHXoTbKi_UiOxh8h_2ZAOrHlaKQyc"
-              alt="RSS logo" width="26" height="26"></a>
-        <li>2024</li>
-        <li> <a href="https://github.com/kbgerm"><img
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" width="26" height="26"></a>
-        </li>
+        <li>Contact Details</li>
+        <li>Summary</li>
+        <li>Work Experience</li>
+        <li>Skills</li>
+        <li>Education</li>
       </ul>
-    </footer>
-  </div>
-  </div>
+    </nav>
+  </header>
+  <aside>
+    <div class="block">
+    </div>
+    <div class="aside">
+      <h3>Contact Details</h3>
+      <div class="conacts">
+        <img class="icon" src="telephone-svgrepo-com.svg" alt="telephoneIcon">
+        <h5>+37529309****</h5>
+      </div>
+      <div class="conacts">
+        <img class="icon" src="telegram-svgrepo-com.svg" alt="telegramIcon">
+        <h5>@kbgerm</h5>
+      </div>
+      <div class="conacts">
+        <img class="icon" src="discord-svgrepo-com.svg" alt="discordIcon">
+        <h5>katherine_svin</h5>
+      </div>
+      <div class="conacts">
+        <img class="icon" src="email-circle-fill-svgrepo-com.svg" alt="emailIcon">
+        <h5>k.b.germ1806@gmail.com</h5>
+      </div>
+      <div class="conacts">
+        <img class="icon" src="location-circle-fill-svgrepo-com.svg" alt="locationIcon">
+        <h5>Belarus, Minsk</h5>
+      </div>
+      <h3>Education</h3>
+      <div>
+        <h5>RSS Front-End Preschool</h5>
+        <p>2023, 2024</p>
+        <h5>RSS Front-End Stage 1</h5>
+        <p>Previous time</p>
+        <h5>Stepik HTML/CSS course</h5>
+        <p>2023</p>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <h2>Summary</h2>
+    <p>Junior Front-End Developer with foundational knowledge in HTML, CSS, and JavaScript, gained through recent
+      coursework. Enthusiastic about building user-friendly, responsive interfaces and learning new technologies. Known
+      for strong attention to detail and eagerness to grow technical skills within a collaborative team environment.</p>
+    <h2>Skills</h2>
+    <h4>HTML/CSS</h4>
+    <p>000**</p>
+    <h4>JavaScript</h4>
+    <p>00***</p>
+    <h4>Working with Git and GitHub</h4>
+    <p>000**</p>
+    <h4>Soft Skills</h4>
+    <p>0000*</p>
+    <h4>Code Example</h4>
+    <pre><code>
+    function nbDig(n, d) {
+      let result = 0;
+          for (let i = 0; i <= n; i++){
+            let k=(i * i + "").split("");
+            k.forEach((s)=>s==d?result++:null)
+          }return result;
+      }
+  </code></pre>
+    <h4>English Level</h4>
+    <h4>English Proficiency: B1/B2 (Intermediate to Upper Intermediate)</h4>
+    <ul>
+      <li>Capable of understanding main points in conversations and texts on familiar topics.</li>
+      <li>Able to engage in discussions and produce coherent written communication.</li>
+    </ul>
+  </main>
+  <footer>
+    <img class="footerIcon" src="githubLOGO.png" alt="githubLogo">
+    <p>2024</p>
+    <img class="footerIcon" src="RSSLogo.png" alt="RSSLogo">
+  </footer>
 </body>
 
 </html>
