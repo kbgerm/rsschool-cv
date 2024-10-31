@@ -1,7 +1,35 @@
+@font-face {
+  font-family: 'OfficinaSans';
+  src: url('/rsschool-cv/fonts/OfficinaSans-Book.woff') format('woff'),
+       url('/rsschool-cv/fonts/OfficinaSans-Book.eot') format('eot'),
+       url('/rsschool-cv/fonts/OfficinaSans-Book.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OfficinaSans';
+  src: url('/rsschool-cv/fonts/OfficinaSans-Medium.woff') format('woff'),
+       url('/rsschool-cv/fonts/OfficinaSans-Medium.eot') format('eot'),
+       url('/rsschool-cv/fonts/OfficinaSans-Medium.ttf') format('ttf');
+  font-weight:bolder;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'OfficinaSans';
+  src: url('/rsschool-cv/fonts/OfficinaSans-Bold.woff') format('woff'),
+       url('/rsschool-cv/fonts/OfficinaSans-Bold.eot') format('eot'),
+       url('/rsschool-cv/fonts/OfficinaSans-Bold.ttf') format('ttf');
+  font-weight:bold;
+  font-style:normal;
+}
+
 body {
   margin: 0 auto;
   width: 800px;
   border: 2px solid #56485E;
+  font-family:'OfficinaSans', normal;
 }
 
 header {
