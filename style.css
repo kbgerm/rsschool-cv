@@ -1,11 +1,11 @@
 body {
   margin: 0 auto;
-  width: 900px;
+  width: 800px;
+  border: 2px solid #56485E;
 }
 
 header {
   display: flex;
-  justify-content: space-around;
   background-color: #56485E;
   color: #E6E4E7;
 }
@@ -13,7 +13,7 @@ header {
 aside {
   background: #EDEBF0;
   width: 200px;
-  height: 856px;
+  height: 866px;
   float: left;
 }
 
@@ -34,7 +34,7 @@ main {
   margin-left: 250px;
   margin-top: 30px;
   display: block;
-  width: 70%;
+  height: 826px;
 }
 
 .photo {
@@ -42,6 +42,8 @@ main {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .icon {
@@ -76,4 +78,46 @@ footer {
 .footerIcon {
   width: 30px;
   height: 30px;
+}
+
+.skills {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+}
+
+h4 {
+  width: 208px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.skillsContainer {
+  margin-left: 10px;
+}
+
+.circleContainer {
+  display: flex;
+  gap: 10px;
+}
+
+pre {
+  margin: 0;
+  background-color: #EDEBF0;
+  width: 75%;
+}
+
+h2 {
+  margin: 40px 0px 20px 0px;
+  border-bottom: 2px solid #56485E;
+}
+
+.heading {
+  margin-left: 150px;
 }
