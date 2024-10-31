@@ -104,7 +104,7 @@
     <pre><code>
     function nbDig(n, d) {
       let result = 0;
-          for (let i = 0; i <= n; i++){
+          for (let i = 0; i 	&lt;= n; i++){
             let k=(i * i + "").split("");
             k.forEach((s)=>s==d?result++:null)
           }return result;
