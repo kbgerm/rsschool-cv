@@ -149,3 +149,7 @@ h2 {
 .heading {
   margin-left: 150px;
 }
+
+#h4 {
+  width: fit-content;
+}
